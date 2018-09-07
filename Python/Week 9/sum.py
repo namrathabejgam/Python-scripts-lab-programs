@@ -1,0 +1,9 @@
+a=int(input())
+#ans=0
+sum=0
+while(a!=0):
+  d=a%10
+  sum+=d
+  #ans=ans*10+d
+  a=int(a/10)
+print(sum)
